@@ -1,6 +1,8 @@
 # Financial Fraud Detection Dashboard
 Anomaly Detection in Credit Card Transactions | Tableau
 
+![Fraud Detection Dashboard] (https://github.com/Radha-Bhushanwar/TABLEAU-PROJECT/blob/main/Fraud%20Detection%20Dashboard.png?raw=true)
+
 ## Problem Statement
 
 Financial institutions face increasing challenges in identifying fraudulent credit card transactions due to high transaction volumes and evolving fraud techniques. 
@@ -71,6 +73,8 @@ Step 7: Creation of Inflation-Adjusted Transaction Metric
 * Applied the following formula:
 [Amt] * (1 + 0.02) ^ (YEAR(TODAY()) - YEAR([Trans Date Trans Time]))
 
+![image alt](https://github.com/Radha-Bhushanwar/TABLEAU-PROJECT/blob/main/Screenshot%202026-01-09%20at%201.20.39%20PM.png?raw=true)
+
 Step 8: Inflation-Adjusted Trend Visualization
 * Opened a new worksheet
 * Dragged Trans Date Trans Time to Columns
@@ -88,6 +92,10 @@ Step 9: Dashboard Design & Layout
     * Fraud Location Map
     * Monthly Time Series Chart
     * Inflation-Adjusted Transaction Trend
+ 
+# DASHBOARD
+
+![image alt](https://github.com/Radha-Bhushanwar/TABLEAU-PROJECT/blob/main/Fraud%20Detection%20Dashboard.png?raw=true)
 
 Step 10: Interactivity & Formatting
 * Ensured consistent color themes across all visuals
